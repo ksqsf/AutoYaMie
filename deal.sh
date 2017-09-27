@@ -1,7 +1,7 @@
 #!/bin/sh
 if [ "$1" == "-h" ] || [ "$1" == "--help" ]
 	then
-		printf "Auto yamie version 2.0\n-m [MODE]\t the mode you use when processing.\n-s [SOURCE]\t the source image you use.\n-e [TEMPLATE] \t the xcf template you use.\n-t [TARGET]\t the target photo you want to restore.\n-h --help \t print this help menu.\n"
+		printf "Auto yamie branch version\n-m [MODE]\t the mode you use when processing.\n-s [SOURCE]\t the source image you use.\n-e [TEMPLATE] \t the xcf template you use.\n-t [TARGET]\t the target photo you want to restore.\n-h --help \t print this help menu.\n"
 		exit 0
 	fi
 mkdir -p generated
