@@ -23,6 +23,9 @@ forked from ksqsf
 ```
 # 对 GIMP 2.8 版本
 cp yamie.scm ~/.gimp-2.8/scripts/
+
+添加了frames.scm，与frames.xcf配套使用，效果是将图片嵌入相框
+
 ```
 
 ## 依赖
