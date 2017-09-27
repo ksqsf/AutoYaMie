@@ -4,6 +4,14 @@
 
 你只需安装 yamie.scm，然后把所有文件扔到 `images` 目录下运行 `convert.sh` 即可。
 
+## 选项添加
+将convert.sh改成deal.sh，使其支持命令行选项，如果不添加任何选项，则依旧使用默认参数。
+-m [MODE]  the mode you use when processing.
+-s [SOURCE]  the source image you use.
+-e [TEMPLATE]   the xcf template you use.
+-t [TARGET]  the target photo you want to restore.
+-h --help   print this help menu.
+
 ```
 # 对 GIMP 2.8 版本
 cp yamie.scm ~/.gimp-2.8/scripts/
